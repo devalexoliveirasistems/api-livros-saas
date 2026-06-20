@@ -3,7 +3,7 @@ import google.generativeai as genai
 from prompt import build_prompt
 
 # 🔑 COLOQUE SUA API KEY AQUI (Google AI Studio)
-genai.configure(api_key="SUA_API_KEY_AQUI")
+genai.configure(api_key="AQ.Ab8RN6KcWTFh45nTX4H16Fdy4vdYUj551iCpOcZ5KRUGfr67UQ")
 
 # 🧠 Modelo gratuito recomendado
 model = genai.GenerativeModel("gemini-1.5-flash")
